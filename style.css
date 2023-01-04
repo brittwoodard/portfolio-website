@@ -17,6 +17,7 @@ Peach: #d4b5a3
 body, header, nav, section, div, footer, a {border: 1px solid #9c9c82} */
 
 /* Universal Styles */
+html {scroll-behavior: smooth;}
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #3c3b3a;
@@ -33,7 +34,7 @@ nav a {
 
 h2, h3, h4, h5, h6 {margin-bottom: 0.5em;}
 
-h2, h3, {font-size: 2.5rem;}
+h2, h3 {font-size: 2.5rem;}
 h5 {font-size: 2rem;}
 
 p {margin-bottom: 1em;}
@@ -109,20 +110,28 @@ footer p {font-weight: 200;}
 
 /* SM Media Query (48/768px */
 @media (max-width: 48em) {
-    .mob-bg-plant-l {
+    .mob-bg-plant-r {
         background-image: url('/images/plant-light.png');
         background-position: 50% 50%;
     }
+    .mob-bg-plant-l {
+        background-image: url('/images/plant-2-light.png');
+        background-position: center;
+    }
+
+    .mob-center {text-align: center;}
+    .mob-margin-b-1 {margin-bottom: 1em;}
 
     .mob-padded-5 {padding: 5%;}
     
     .bg-project {min-height: 60vh;}
-    
-    .mob-margin-t-1 {margin-top: 1em;}
 }
 
 @media (max-width: 36em) {
     .flex-flip-xs {flex-direction: column-reverse;}
 
     .button {margin-bottom: 1em;}
+
+    .mob-margin-t-1 {margin-top: 1em;}
+
 }
