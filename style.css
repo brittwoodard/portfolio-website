@@ -37,7 +37,7 @@ p {margin-bottom: 1em;}
 
 p:last-child {margin-bottom: 0;}
 
-/* Utility Classes */
+/* Resable Utility Classes */
 .center {text-align: center;}
 .right {text-align: right;}
 
@@ -52,6 +52,12 @@ p:last-child {margin-bottom: 0;}
 .bg-peach {background-color: #d4b5a3;}
 
 .text-light {color: white;}
+
+/* Utility Classes */
+.copyright {
+    opacity: 0.8;
+    padding: 1% 0;
+}
 
 /* Images */
 .bg-image {
@@ -81,4 +87,5 @@ p:last-child {margin-bottom: 0;}
 
 .icon {
     width: 100%;
+    padding: 10%;
 }
