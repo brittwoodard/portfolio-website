@@ -13,8 +13,8 @@ Peach: #d4b5a3
 
 [class*="col-"] {padding: 0;}
 
-/* Temporary Styles */
-body, header, nav, section, div, footer {border: 1px solid #9c9c82}
+/* Temporary Styles
+body, header, nav, section, div, footer, a {border: 1px solid #9c9c82} */
 
 /* Universal Styles */
 body {
@@ -33,9 +33,16 @@ nav a {
 
 h2, h3, h4, h5, h6 {margin-bottom: 0.5em;}
 
+h2, h3, {font-size: 2.5rem;}
+h5 {font-size: 2rem;}
+
 p {margin-bottom: 1em;}
 
 p:last-child {margin-bottom: 0;}
+
+footer h2 {font-size: 2rem;}
+footer h3, h4 {font-size: 1.2rem;}
+footer p {font-weight: 200;}
 
 /* Resable Utility Classes */
 .center {text-align: center;}
@@ -53,7 +60,17 @@ p:last-child {margin-bottom: 0;}
 
 .text-light {color: white;}
 
+.bold {font-weight: 600;}
+
 /* Utility Classes */
+.button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
 .copyright {
     opacity: 0.8;
     padding: 1% 0;
@@ -86,6 +103,6 @@ p:last-child {margin-bottom: 0;}
 }
 
 .icon {
-    width: 100%;
+    width: 50%;
     padding: 10%;
 }
