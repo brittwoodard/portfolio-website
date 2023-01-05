@@ -52,6 +52,8 @@ footer p {font-weight: 200;}
 .padded-5 {padding: 5%;}
 .padded-5-b {padding-bottom: 5%;}
 
+.margin-b-1 {margin-bottom: 1em;}
+
 .tall-80 {min-height: 80vh;}
 .tall-60 {min-height: 60vh;}
 
@@ -64,10 +66,18 @@ footer p {font-weight: 200;}
 .bold {font-weight: 600;}
 
 /* Utility Classes */
-.button {
+.button-light {
     color: white;
     text-decoration: none;
     border: 2px solid white;
+    padding: 0.5em 1em;
+    display: inline-block;
+}
+
+.button-dark {
+    color: #3c3b3a;
+    text-decoration: none;
+    border: 2px solid #3c3b3a;
     padding: 0.5em 1em;
     display: inline-block;
 }
